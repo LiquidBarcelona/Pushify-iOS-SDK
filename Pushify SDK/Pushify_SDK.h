@@ -3,7 +3,7 @@
 //  Pushify SDK
 //
 //  Created by Xavier Maroñas on 23/1/18.
-//  Copyright © 2018 Liquid Studio. All rights reserved.
+//  Copyright © 2018 Liquid Studio SL. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
