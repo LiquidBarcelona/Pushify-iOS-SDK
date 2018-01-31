@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CCB9CB4220174BB60038ED68 /* Pushify_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB9CB4020174BB60038ED68 /* Pushify_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB9CB49201770450038ED68 /* Pushify_SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9CB48201770450038ED68 /* Pushify_SDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCB9CB3D20174BB60038ED68 /* Pushify_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pushify_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB9CB4020174BB60038ED68 /* Pushify_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pushify_SDK.h; sourceTree = "<group>"; };
 		CCB9CB4120174BB60038ED68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB9CB48201770450038ED68 /* Pushify_SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushify_SDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		CCB9CB3F20174BB60038ED68 /* Pushify SDK */ = {
 			isa = PBXGroup;
 			children = (
+				CCB9CB48201770450038ED68 /* Pushify_SDK.swift */,
 				CCB9CB4020174BB60038ED68 /* Pushify_SDK.h */,
 				CCB9CB4120174BB60038ED68 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					CCB9CB3C20174BB60038ED68 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB9CB49201770450038ED68 /* Pushify_SDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		CCB9CB4620174BB60038ED68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cat.liquid.Pushify-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		CCB9CB4720174BB60038ED68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
