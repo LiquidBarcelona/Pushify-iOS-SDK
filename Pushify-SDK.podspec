@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version = "1.0.1"
   spec.summary = "Pushify SDK framework"
   spec.homepage = "https://github.com/LiquidBarcelona/Pushify-iOS-SDK"
-  spec.license = { type: 'MIT', file: 'LICENSE' }
+  spec.license = { type: 'Apache 2.0', file: 'LICENSE' }
   spec.authors = { "Liquid Studio" => 'hello@liquid.cat' }
   spec.social_media_url = "http://twitter.com/liquidbcn"
 
