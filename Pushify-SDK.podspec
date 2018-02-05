@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "Pushify-SDK"
-  spec.version = "1.0.1"
+  spec.version = "1.0.2"
   spec.summary = "Pushify SDK framework"
   spec.homepage = "https://github.com/LiquidBarcelona/Pushify-iOS-SDK"
   spec.license = { type: 'Apache 2.0', file: 'LICENSE' }
