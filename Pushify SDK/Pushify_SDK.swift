@@ -11,6 +11,7 @@ import UIKit
 public class Pushify_SDK: NSObject {
     
     public func createColor(red: Int, green: Int, blue: Int) -> UIColor {
+        
         return UIColor(
             red: CGFloat(red/255),
             green: CGFloat(green/255),

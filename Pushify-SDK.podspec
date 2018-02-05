@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "9.0"
   spec.requires_arc = true
   spec.source = { git: "https://github.com/LiquidBarcelona/Pushify-iOS-SDK.git", tag: "v#{spec.version}", submodules: true }
-  #spec.source_files = "Pushify SDK/**/*.{h,swift}"
+  spec.source_files = "Pushify SDK/**/*.{h,swift}"
 
 end
