@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Pushify_SDK: NSObject {
+public class Pushify_SDK: NSObject {
     
     public func createColor(red: Int, green: Int, blue: Int) -> UIColor {
         return UIColor(
